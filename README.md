@@ -1,5 +1,5 @@
 # api-menu-section
-The Menu Section REST API was built using the Django Framework due to its simpplicity and rapid development capabilities.
+This Menu Section REST API was built using the Django Framework due to its simplicity and rapid development capabilities.
 
 Requirements:  
 This is a Django app built on `Django 2.2` with `Python 3.6.2`.   
