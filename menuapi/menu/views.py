@@ -28,13 +28,13 @@ class MenuView(APIView):
 class MenuSectionView(APIView): 
 	"""
 	get: 
-	Return the menu section matching the input id
+	Return the menu section matching the input id. 
 
 	put: 
-	Edit an existing menu section. 
+	Edit an existing menu section with the given id. 
 
 	delete: 
-	Delete an existing menu section. 
+	Delete an existing menu section with the given id. 
 	"""
 	def get(self, request, pk): 
 		section = get_object_or_404(MenuSection.objects.all(), pk=pk)
