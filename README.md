@@ -32,7 +32,8 @@ curl http://127.0.0.1:8000/api/menu/3
 ```
 `POST`:  
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"section":{"id":5,"name":"Easter Day Specials"}}' http://localhost:8000/api/menu/  {"success":"Menu section 'Easter Day Specials' created successfully."}
+curl -X POST -H "Content-Type: application/json" -d '{"section":{"id":5,"name":"Easter Day Specials"}}' http://localhost:8000/api/menu/
+{"success":"Menu section 'Easter Day Specials' created successfully."}
 ```
 
 To access admin:  
