@@ -17,6 +17,6 @@ $ python manage.py runserver
 Then visit `http://127.0.0.1:8000/api/menu/` to view the menu.   
 
 To access admin:  
-Visit `http://127.0.0.1:8000/api/` and enter the following:  
+Visit `http://127.0.0.1:8000/admin/` and enter the following:  
 Username: `admin`  
 Password: `Intern!1`  
